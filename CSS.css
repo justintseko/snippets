@@ -1,0 +1,23 @@
+/* Button that transitions by swapping its background and text colors */
+
+.gs-blue-button {
+	background-color: #237!important;
+	color: white!important;
+    border: 2px solid #223377 !important;
+    -webkit-transition: color 1s, background-color 1s;
+	-moz-transition: color 1s, background-color 1s;
+	-o-transition: color 1s, background-color 1s;
+	-ms-transition: color 1s, background-color 1s;
+	transition: color 1s, background-color 1s;
+    font-family: 'Montserrat',Arial !important;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.gs-blue-button:hover {
+	background-color: white!important;
+	color: #237!important;
+}
